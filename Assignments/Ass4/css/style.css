@@ -1,0 +1,80 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.txt-center{
+    text-align: center;
+}
+
+
+.d1,.d2,.d3,.d4,.d5,.d6,.d7,.d8{
+    margin: 10px;
+    border: 1px solid black;
+    padding: 10px;
+}
+/* CSS for Large Screen*/
+@media screen and (min-width:1200px){
+    .d1,.d2,.d3,.d4,.d5,.d6,.d7,.d8{
+        background-color: orange;
+color:white;
+    }
+    .d1,.d2{
+        height: 70px;
+    }
+    .d3{
+        height: 50px;
+    }
+    .d4,.d5,.d6,.d7{
+        height: 150px;
+    }
+
+}
+/* CSS for Medium Screen*/
+@media screen and (max-width:1200px){
+    .d1,.d2,.d3,.d4,.d5,.d6,.d7,.d8{
+        background-color: black;
+color:white;
+    }
+    .d1,.d2{
+        height: 40px;
+    }
+    .d3{
+        height: 50px;
+    }
+    .d4,.d5,.d6,.d7{
+        height: 150px;
+    }
+}
+/* CSS for Small Screen*/
+@media screen and (max-width:990px){
+    .d1,.d2,.d3,.d4,.d5,.d6,.d7,.d8{
+        background-color: lightskyblue;
+color:white;
+    }
+    .d1,.d2{
+        height: 60px;
+    }
+    .d3{
+        height: 30px;
+    }
+    .d4,.d5,.d6,.d7{
+        height: 200px;
+    }
+    .d8{
+        height: 30px;
+    }
+}
+/* CSS for Xtra Small Screen*/
+@media screen and (max-width:770px){
+    .d1,.d2{
+        height: 40px;
+    }
+    .d4,.d5,.d6,.d7{
+        height: 100px;
+    }
+    .d1,.d2,.d3,.d4,.d5,.d6,.d7,.d8{
+        background-color: red;
+color:white;
+    }
+}

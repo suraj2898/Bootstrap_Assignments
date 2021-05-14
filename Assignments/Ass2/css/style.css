@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.d1,.d2,.d3,.d4,.d5,.d6,.d7,.d8{
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+/*CSS for the Large screen*/
+@media screen and (min-width:1200px){
+    .d1,.d2,.d3,.d4,.d5,.d6,.d7,.d8,.img-slider{
+        background-color:orange;   
+    }
+    .d5,.d6{
+        height: 80px;
+    }
+
+}
+/*CSS for The medium screen*/
+@media screen and (max-width:1200px){
+    .d1,.d2,.d3,.d4,.d5,.d6,.d7,.d8,.img-slider{
+        background-color:white;
+       
+    }
+
+}
+/*CSS For the small screen*/
+@media screen and (max-width:990px){
+    .d1,.d2,.d3,.d4,.d5,.d6,.d7,.d8,.img-slider{
+        background-color:red;
+      color:white;
+    }
+    .d1{
+        margin-top: 100px;
+    }
+
+}
+/*CSS for the extra small screen*/
+@media screen and (max-width:770px){
+    .d1,.d2,.d3,.d4,.d5,.d6,.d7,.d8,.img-slider{
+        background-color:yellow;
+color:black;
+        margin: 10px;
+    }
+    .d1,.d2{
+        height: 60px;
+    }
+    .d3,.d4,{
+        height: 70px;
+    }
+    .d5,.d6,.d7,.d8{
+        height: 90px;
+    }
+}

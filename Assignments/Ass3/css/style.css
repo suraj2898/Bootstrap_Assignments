@@ -1,0 +1,71 @@
+
+.d1,.d2,.d3,.d4,.d5,.d6,.d7,.d8{
+    margin: 10px;
+    border: 1px solid black;
+    padding: 10px;
+}
+@media screen and (max-width:1200px){
+    .d7,.d6{
+        height: 100px;
+       
+    }
+    .d3,.d4,.d5{
+        height: 100px;
+        ;
+    }
+    .d8{
+        height: 30px;
+        
+    }
+    .d1,.d2,.d3,.d4,.d5,.d6,.d7,.d8{
+        background-color: yellow;
+color:black;
+    }
+  
+}
+@media screen and (min-width:1200px){
+  .d3,.d4,.d5,.d6{
+      height: 150px;
+  }
+  .d7,.d8{
+      height: 30px;
+  }
+  .d1,.d2,.d3,.d4,.d5,.d6,.d7,.d8{
+    background-color: orange;
+color:white;
+}
+}
+
+@media screen and (max-width:990px){
+    .d1,.d7,.d8{
+        height: 30px;
+        background-color: red;
+color:white;
+    }
+    .d3,.d4{
+        height: 200px;
+    }
+    .d5,.d6{
+        height: 150px;
+    }
+    .d1,.d2,.d3,.d4,.d5,.d6,.d7,.d8{
+        background-color: brown;
+    }
+}
+@media screen and (max-width:770px){
+    .d1{
+        height: 40px;
+    }
+    .d2,.d8{
+        height: 30px;
+    }
+    .d3,.d4,.d5,.d6{
+        height: 150px;
+    }
+    .d7{
+        height: 100px;
+    }
+    .d1,.d2,.d3,.d4,.d5,.d6,.d7,.d8{
+        background-color: lightcoral
+    }
+}
